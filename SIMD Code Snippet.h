@@ -1,7 +1,7 @@
 
 /*
 In this function i check against world collisions using CMD
-with the use of CMD instructions i check 4 objects at the same time and apply a null mask the ones that are not relevant to continue the cycle.
+with the use of SIMD instructions i check 4 objects at the same time and apply a null mask the ones that are not relevant to continue the cycle.
 */
 
 
