@@ -1,6 +1,6 @@
 --[[
-This template is developed for my team when working with the Amazon lumberyard engine.
-Inside this template i have premade some settings that can be uncommented to be used.
+I have created this template for my team whe we where working with the Amazon lumberyard engine.
+Inside this template i have premade some settings that can be uncommented or copied to be used and get people started.
 ]]--
 
 MyLuaEntity = 
