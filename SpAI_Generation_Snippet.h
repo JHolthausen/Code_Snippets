@@ -98,9 +98,6 @@ void ASpAI_ObjectBaseStatic::Triangulate()
 					if (tmp.Size() <= (circle.radius + 2.f))
 					{
 						/*
-						cntr++;
-						falseTrianglecCntr = 50;
-						
 						UE_LOG(LogTemp, Warning, TEXT("MyCharacter's Location is %f"), tmp.Size());
 
 						UE_LOG(LogTemp, Warning, TEXT("MyCharacter's Location is %f"), (circle.radius + 2.f));
