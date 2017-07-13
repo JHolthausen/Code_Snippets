@@ -293,7 +293,6 @@ bool ASpAI_ObjectBaseStatic::PointReachable(FVector start, FVector end, TArray<A
 FCircumCircle ASpAI_ObjectBaseStatic::CreateCircumCircle(FVector a, FVector b, FVector c)
 {
 	FCircumCircle circle;
-	//https://gamedev.stackexchange.com/questions/60630/how-do-i-find-the-circumcenter-of-a-triangle-in-3d
 	FVector AB = b- a;
 	FVector AC = c - a;
 	FVector abXac = FVector::CrossProduct(AB,AC);
